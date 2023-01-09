@@ -6,13 +6,15 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseTest;
+import tests.dataProviders.DataProviders;
 
 public class Products extends BaseTest {
 
-    @Test
-    public void searchProduct() {
-        DriverManager.getDriver().findElement(By.xpath("//input[@id='searchboxTrigger']")).sendKeys("iPhone13 Pro Max");
-        DriverManager.getDriver().findElement(By.xpath("//input[@id='searchboxTrigger']")).sendKeys(Keys.ENTER);
-        Assert.assertTrue( DriverManager.getDriver().getCurrentUrl().contains("iPhone"));
+    @Test(description = "search Product", dataProvider = "products", dataProviderClass = DataProviders.class,
+            groups = {"Products", "smoke"})
+    public void searchProduct(String product) {
+        homePage
+                .searchProduct(product);
+        Assert.assertTrue(DriverManager.getDriver().getCurrentUrl().contains(product));
     }
 }

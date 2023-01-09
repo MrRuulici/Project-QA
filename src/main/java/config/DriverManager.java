@@ -1,10 +1,13 @@
 package config;
 
+import com.google.common.base.CaseFormat;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 
@@ -13,16 +16,16 @@ import org.openqa.selenium.safari.SafariDriver;
  */
 public class DriverManager {
 
-    private static WebDriver driver;
+    private static RemoteWebDriver driver;
 
     private static ChromeDriver startChromeBrowser() {
         WebDriverManager.chromedriver().setup();
-        return new ChromeDriver();
+        return new ChromeDriver(OptionsManager.getChromeOptions());
     }
 
     private static FirefoxDriver startFirefoxBrowser() {
         WebDriverManager.firefoxdriver().setup();
-        return new FirefoxDriver();
+        return new FirefoxDriver(OptionsManager.getFirefoxOptions());
     }
 
     private static EdgeDriver startEdgeBrowser() {
@@ -59,5 +62,10 @@ public class DriverManager {
 
     public static void closeBrowser() {
         driver.quit();
+    }
+
+    public static String getDriverName() {
+        Capabilities cap = driver.getCapabilities();
+        return CaseFormat.UPPER_UNDERSCORE.to(CaseFormat.UPPER_CAMEL, cap.getBrowserName());
     }
 }
