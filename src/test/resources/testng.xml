@@ -9,7 +9,8 @@
     <test name="Chrome1">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="tests.products.Products"/>
+<!--            <class name="tests.products.ProductsTest"/>-->
+            <class name="tests.orders.OrderTest"/>
         </classes>
     </test>
 

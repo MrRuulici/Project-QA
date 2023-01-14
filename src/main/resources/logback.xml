@@ -1,0 +1,46 @@
+<configuration debug="false">
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"
+               timeReference="contextBirth"/>
+    <appender name="FILE-THREAD" class="ch.qos.logback.classic.sift.SiftingAppender">
+        <discriminator>
+            <key>testname</key>
+            <defaultValue>testrun</defaultValue>
+        </discriminator>
+        <sift>
+            <appender name="FILE-${testname}"
+                      class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+                    <level>${fileLogLevel}</level>
+                </filter>
+                <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+                    <Pattern>
+                        %d{yyyy-MM-dd HH:mm:ss} %mdc{0} [%thread]:[%tid] %level %logger{0}:%line - %msg%n
+                    </Pattern>
+                </encoder>
+                <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                    <fileNamePattern>logs//%d{yyyy/MM/dd/HH}//%d{HH.mm.ss}.${testname}.log
+                    </fileNamePattern>
+                </rollingPolicy>
+                <triggeringPolicy
+                        class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+                    <MaxFileSize>5MB</MaxFileSize>
+                </triggeringPolicy>
+            </appender>
+        </sift>
+    </appender>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>${consoleLogLevel}</level>
+        </filter>
+        <withJansi>false</withJansi>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %boldGreen(%d{yyyy-MM-dd HH:mm:ss}) %boldGreen(%mdc) %highlight(%-5level) %boldYellow(%logger{0}:%line) - %boldMagenta(%msg%n)
+            </Pattern>
+        </encoder>
+    </appender>
+    <root>
+        <appender-ref ref="FILE-THREAD"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

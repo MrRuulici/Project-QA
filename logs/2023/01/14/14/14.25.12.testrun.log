@@ -1,0 +1,4 @@
+2023-01-14 14:25:12  [main]:[%PARSER_ERROR[tid]] DEBUG TestNG:82 - suiteXmlPath: "/Users/gabrielmustata/IdeaProjects/web-automation/src/test/resources/testng.xml"
+2023-01-14 14:25:12  [main]:[%PARSER_ERROR[tid]] INFO Utils:112 - [TestNG] Running:
+  /Users/gabrielmustata/IdeaProjects/web-automation/src/test/resources/testng.xml
+
