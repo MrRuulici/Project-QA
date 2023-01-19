@@ -2,7 +2,7 @@ package tests;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;
-import config.ConfigProperties;
+import util.ConfigProperties;
 import config.DriverManager;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
