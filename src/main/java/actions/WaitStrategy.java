@@ -61,7 +61,7 @@ public class WaitStrategy {
         waitForElement(ExpectedConditions.visibilityOf(elem), Duration.ofSeconds(DEFAULT_TIMEOUT));
     }
 
-    public void waitFor(Duration intervalMs) {
+    public static void waitFor(Duration intervalMs) {
         try {
 //            LOG.info("Waiting for {} ms", intervalMs.toMillis());
             Thread.sleep(intervalMs.toMillis());

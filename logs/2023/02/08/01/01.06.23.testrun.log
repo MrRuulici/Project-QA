@@ -1,0 +1,642 @@
+2023-02-08 01:06:23  [main]:[%PARSER_ERROR[tid]] DEBUG TestNG:82 - suiteXmlPath: "D:\IntelliJ Projects\Project\students-web-automation-framework\src\test\resources\testng.xml"
+2023-02-08 01:06:23  [main]:[%PARSER_ERROR[tid]] INFO Utils:112 - [TestNG] Running:
+  D:\IntelliJ Projects\Project\students-web-automation-framework\src\test\resources\testng.xml
+
+2023-02-08 01:06:23  [main]:[%PARSER_ERROR[tid]] INFO ExtentManager:29 - Create extent report
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ResolutionCache:186 - Resolution chrome=109 in cache (valid until 01:44:52 08/02/2023 EET)
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ResolutionCache:186 - Resolution chrome109=109.0.5414.74 in cache (valid until 20:10:39 08/02/2023 EET)
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] INFO WebDriverManager:1238 - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG WebDriverManager:1193 - Driver chromedriver 109.0.5414.74 found in cache
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] INFO WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\raulu\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@71a3a190
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:1000 - Java version: 19
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @25bbf683
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:1270 - maxDirectMemory: 4234149888 bytes (maybe)
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\raulu\AppData\Local\Temp (java.io.tmpdir)
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:1119 - Platform: Windows
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 24
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 24
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 24
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-02-08 01:06:24  [main]:[%PARSER_ERROR[tid]] DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-02-08 01:06:24  [Forwarding newSession on session null to remote]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelId:79 - -Dio.netty.processId: 12332 (auto-detected)
+2023-02-08 01:06:24  [Forwarding newSession on session null to remote]:[%PARSER_ERROR[tid]] DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2023-02-08 01:06:24  [Forwarding newSession on session null to remote]:[%PARSER_ERROR[tid]] DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2023-02-08 01:06:24  [Forwarding newSession on session null to remote]:[%PARSER_ERROR[tid]] DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-02-08 01:06:24  [Forwarding newSession on session null to remote]:[%PARSER_ERROR[tid]] DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-02-08 01:06:24  [Forwarding newSession on session null to remote]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelId:101 - -Dio.netty.machineId: a4:bb:6d:ff:fe:71:46:71 (auto-detected)
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@69a95ea7
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to '/session'
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2023-02-08 01:06:24  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2023-02-08 01:06:25  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-02-08 01:06:25  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 973
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 791
+
+2023-02-08 01:06:25  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:25  [AsyncHttpClient-1-3]:[%PARSER_ERROR[tid]] DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x0bf5d726, L:/127.0.0.1:51061 - R:localhost/127.0.0.1:51055]' for 'GET' to '/json/version'
+2023-02-08 01:06:25  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:25  [AsyncHttpClient-1-3]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+host: localhost:51055
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+content-length: 424
+
+2023-02-08 01:06:25  [AsyncHttpClient-1-3]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:51055 for channel [id: 0x0bf5d726, L:/127.0.0.1:51061 - R:localhost/127.0.0.1:51055]
+2023-02-08 01:06:25  [main]:[%PARSER_ERROR[tid]] DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xa13cbdc1396a1619
+2023-02-08 01:06:25  [AsyncHttpClient-1-4]:[%PARSER_ERROR[tid]] DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xe998823d, L:/127.0.0.1:51062 - R:localhost/127.0.0.1:51055]' for 'GET' to '/devtools/browser/2c9cb3f5-76b3-4786-8b3c-e5bba6c6e8f7'
+2023-02-08 01:06:25  [AsyncHttpClient-1-4]:[%PARSER_ERROR[tid]] DEBUG WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/2c9cb3f5-76b3-4786-8b3c-e5bba6c6e8f7 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: bYyIlwx5jZolFjvbmll7Dw==
+sec-websocket-version: 13
+origin: http://localhost:51055
+host: localhost:51055
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: +x53JFI4Ckhup/n85SxRjqlSvWE=
+
+2023-02-08 01:06:25  [Forwarding get on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/url'
+2023-02-08 01:06:25  [Forwarding get on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/url'
+2023-02-08 01:06:26  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:27  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:28  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/url HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 52
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:28  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:28  [Forwarding maximizeCurrentWindow on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/window/maximize'
+2023-02-08 01:06:28  [Forwarding maximizeCurrentWindow on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/window/maximize'
+2023-02-08 01:06:28  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:28  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/window/maximize HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 52
+
+2023-02-08 01:06:28  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:28  [Forwarding setTimeout on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/timeouts'
+2023-02-08 01:06:28  [Forwarding setTimeout on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/timeouts'
+2023-02-08 01:06:28  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/timeouts HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 22
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:28  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:28  [Forwarding get on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/url'
+2023-02-08 01:06:28  [Forwarding get on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/url'
+2023-02-08 01:06:29  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:30  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/url HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 52
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:31  [main]:[%PARSER_ERROR[tid]] INFO ExtentManager:29 - Create extent report
+2023-02-08 01:06:31  [main]:[%PARSER_ERROR[tid]] INFO HomePage:21 - Navigate to laptops
+2023-02-08 01:06:31  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:31  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 106
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:31  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:31  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48780
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:31  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'GET' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/57865216-7f68-4721-b93a-912bad6ee5d8/enabled'
+2023-02-08 01:06:31  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for GET '/session/2eead2d01bb64a11be91513f3985b811/element/57865216-7f68-4721-b93a-912bad6ee5d8/enabled'
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/2eead2d01bb64a11be91513f3985b811/element/57865216-7f68-4721-b93a-912bad6ee5d8/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:31  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:31  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 106
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:31  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:31  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/57865216-7f68-4721-b93a-912bad6ee5d8/click'
+2023-02-08 01:06:31  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element/57865216-7f68-4721-b93a-912bad6ee5d8/click'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element/57865216-7f68-4721-b93a-912bad6ee5d8/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [main]:[%PARSER_ERROR[tid]] INFO HomePage:27 - Navigate to laptops
+2023-02-08 01:06:32  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:32  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 152
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:32  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48780
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'GET' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/6622577e-5552-4896-8388-71f77cb4965c/enabled'
+2023-02-08 01:06:32  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for GET '/session/2eead2d01bb64a11be91513f3985b811/element/6622577e-5552-4896-8388-71f77cb4965c/enabled'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/2eead2d01bb64a11be91513f3985b811/element/6622577e-5552-4896-8388-71f77cb4965c/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 152
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/6622577e-5552-4896-8388-71f77cb4965c/click'
+2023-02-08 01:06:32  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element/6622577e-5552-4896-8388-71f77cb4965c/click'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element/6622577e-5552-4896-8388-71f77cb4965c/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [main]:[%PARSER_ERROR[tid]] INFO HomePage:33 - Navigate to laptops
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 163
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:32  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48780
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'GET' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/9a0ca48b-aaab-4dc3-8324-1b49b103300f/enabled'
+2023-02-08 01:06:32  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for GET '/session/2eead2d01bb64a11be91513f3985b811/element/9a0ca48b-aaab-4dc3-8324-1b49b103300f/enabled'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/2eead2d01bb64a11be91513f3985b811/element/9a0ca48b-aaab-4dc3-8324-1b49b103300f/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 163
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:32  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:32  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/9a0ca48b-aaab-4dc3-8324-1b49b103300f/click'
+2023-02-08 01:06:32  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element/9a0ca48b-aaab-4dc3-8324-1b49b103300f/click'
+2023-02-08 01:06:33  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:34  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:34  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element/9a0ca48b-aaab-4dc3-8324-1b49b103300f/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:34  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:34  [main]:[%PARSER_ERROR[tid]] INFO ProdusePage:15 - add phone to cart
+2023-02-08 01:06:34  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:34  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:34  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 238
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:34  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:34  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:34  [Forwarding isElementDisplayed on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/execute/sync'
+2023-02-08 01:06:34  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48780
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:34  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:34  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'GET' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/82d47bf5-86df-4720-abfb-c05c8171ce6f/enabled'
+2023-02-08 01:06:34  [Forwarding isElementEnabled on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for GET '/session/2eead2d01bb64a11be91513f3985b811/element/82d47bf5-86df-4720-abfb-c05c8171ce6f/enabled'
+2023-02-08 01:06:35  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/2eead2d01bb64a11be91513f3985b811/element/82d47bf5-86df-4720-abfb-c05c8171ce6f/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:35  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:35  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:35  [Forwarding findElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element'
+2023-02-08 01:06:35  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 238
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2023-02-08 01:06:35  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:35  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]' for 'POST' to 'http://localhost:38469/session/2eead2d01bb64a11be91513f3985b811/element/82d47bf5-86df-4720-abfb-c05c8171ce6f/click'
+2023-02-08 01:06:35  [Forwarding clickElement on session 2eead2d01bb64a11be91513f3985b811 to remote]:[%PARSER_ERROR[tid]] DEBUG NettyRequestSender:251 - Using open Channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469] for POST '/session/2eead2d01bb64a11be91513f3985b811/element/82d47bf5-86df-4720-abfb-c05c8171ce6f/click'
+2023-02-08 01:06:35  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2eead2d01bb64a11be91513f3985b811/element/82d47bf5-86df-4720-abfb-c05c8171ce6f/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:38469
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2023-02-08 01:06:35  [AsyncHttpClient-1-2]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:270 - Adding key: http://localhost:38469 for channel [id: 0x6833b71e, L:/127.0.0.1:51054 - R:localhost/127.0.0.1:38469]
+2023-02-08 01:06:35  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:35  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:36  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:36  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:37  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:37  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:38  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:38  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:39  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:39  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:40  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:40  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:41  [AsyncHttpClient-1-3]:[%PARSER_ERROR[tid]] DEBUG HttpHandler:126 - Channel Closed: [id: 0x0bf5d726, L:/127.0.0.1:51061 ! R:localhost/127.0.0.1:51055] with attribute DISCARD
+2023-02-08 01:06:41  [AsyncHttpClient-1-4]:[%PARSER_ERROR[tid]] DEBUG WebSocketHandler:126 - Channel Closed: [id: 0xe998823d, L:/127.0.0.1:51062 ! R:localhost/127.0.0.1:51055] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@291b1cb3,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@46de3d69,
+	future=java.util.concurrent.CompletableFuture@36b98327[Completed normally],
+	uri=ws://localhost:51055/devtools/browser/2c9cb3f5-76b3-4786-8b3c-e5bba6c6e8f7,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1675811185507}
+2023-02-08 01:06:41  [AsyncHttpClient-1-4]:[%PARSER_ERROR[tid]] DEBUG ChannelManager:315 - Closing Channel [id: 0xe998823d, L:/127.0.0.1:51062 ! R:localhost/127.0.0.1:51055] 
+2023-02-08 01:06:41  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:51055 : 1
+2023-02-08 01:06:41  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:41  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0x0bf5d726, L:/127.0.0.1:51061 ! R:localhost/127.0.0.1:51055] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2023-02-08 01:06:41  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0x0bf5d726, L:/127.0.0.1:51061 ! R:localhost/127.0.0.1:51055]
+2023-02-08 01:06:41  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:374 - Closed 1 connections out of 2 in 1 ms
+2023-02-08 01:06:43  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:44  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:45  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:46  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:47  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:48  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:49  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:50  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:51  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:52  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:54  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:55  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:56  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:57  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:58  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
+2023-02-08 01:06:59  [AsyncHttpClient-1-1]:[%PARSER_ERROR[tid]] DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:38469 : 1
